@@ -59,3 +59,9 @@ gem 'simple_form'
 
 # Use Devise
 gem 'devise', '>= 3.2.4'
+
+# Use Geocoder
+gem 'geocoder'
+
+# Use Figaro
+gem 'figaro', '>= 1.0.0'

@@ -107,7 +107,7 @@
   <br /><br />
 
   <% @place.photos.each do |photo| %>
-    <%= image_tag photo.picture %>
+    <%= image_tag photo.picture, class: 'img-responsive' %>
     <br /><br />
     <%= photo.caption %>
   <% end %>
